@@ -64,7 +64,7 @@
       "expo-sharing"
     ],
     "extra": {
-      "apiUrl": "",
+      "apiUrl": "https://narcolens-api-rhhz.onrender.com",
       "router": {},
       "eas": {
         "projectId": "60aa9347-9aee-44dc-9850-02357ab0045a"
