@@ -1,0 +1,13 @@
+**/node_modules/
+**/.expo/
+**/__pycache__/
+**/*.pyc
+**/.env
+**/.env.*
+!**/.env.example
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision

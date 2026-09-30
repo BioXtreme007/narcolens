@@ -1,0 +1,10 @@
+rendered 2640 plates / 7920 wells in 276s
+testB     rule 0.882 | rf 0.948 | DEPLOYED 0.958 missed 0.000 false-alarm 0.000 wrong-drug 0.000 | ECE 0.017->0.021 | unknown-colour caught 0.98
+testE1    rule 0.847 | rf 0.973 | DEPLOYED 0.976 missed 0.000 false-alarm 0.000 wrong-drug 0.000 | ECE 0.012->0.015 | unknown-colour caught 0.97
+testE2    rule 0.855 | rf 0.966 | DEPLOYED 0.952 missed 0.000 false-alarm 0.000 wrong-drug 0.000 | ECE 0.015->0.050 | unknown-colour caught 1.00
+marquis   rule 0.819 | rf 0.970 | DEPLOYED 0.967 missed 0.000 false-alarm 0.000 wrong-drug 0.000 | ECE 0.016->0.026 | unknown-colour caught 0.98
+mecke     rule 0.801 | rf 0.966 | DEPLOYED 0.955 missed 0.000 false-alarm 0.000 wrong-drug 0.000 | ECE 0.013->0.013 | unknown-colour caught 0.99
+mandelin  rule 0.796 | rf 0.951 | DEPLOYED 0.940 missed 0.000 false-alarm 0.000 wrong-drug 0.009 | ECE 0.022->0.032 | unknown-colour caught 0.91
+scott     rule 0.796 | rf 0.964 | DEPLOYED 0.950 missed 0.000 false-alarm 0.000 wrong-drug 0.000 | ECE 0.010->0.027 | unknown-colour caught 0.96
+detection: median 0.024 r, >0.5r 0.95%; quality flags {'blurry': 0.09621212121212121, 'too_dark': 0.0, 'overexposed': 0.15151515151515152, 'glare': 0.060227272727272727}
+model -> C:\Users\akgam\Documents\DrugTest\narcolens\ml\models\narcolens-wells-v2.json (54 KB) in 282s total

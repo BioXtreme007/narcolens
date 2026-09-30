@@ -1,0 +1,470 @@
+{
+  "detection": {
+    "median_err_r": 0.025417805058554305,
+    "p95_err_r": 0.09655526373064074,
+    "miss_rate_gt_half_r": 0.0,
+    "plate_not_found": 0
+  },
+  "reagents": {
+    "testB": {
+      "n_train": 30,
+      "n_test": 12,
+      "rule_dE2000": {
+        "acc": 0.9166666666666666,
+        "macro_f1": 0.8666666666666667,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "logreg": {
+        "acc": 0.9166666666666666,
+        "macro_f1": 0.6190476190476191,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "deployed": {
+        "acc": 1.0,
+        "macro_f1": 1.0,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0,
+        "confusion": {
+          "labels": [
+            "negative",
+            "Cannabis",
+            "unclear"
+          ],
+          "matrix": [
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              8,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      },
+      "random_forest": {
+        "acc": 1.0,
+        "macro_f1": 1.0,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "mlp": {
+        "acc": 0.4166666666666667,
+        "macro_f1": 0.2380952380952381,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      }
+    },
+    "testE1": {
+      "n_train": 37,
+      "n_test": 22,
+      "rule_dE2000": {
+        "acc": 1.0,
+        "macro_f1": 1.0,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "logreg": {
+        "acc": 0.9090909090909091,
+        "macro_f1": 0.7857142857142857,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "deployed": {
+        "acc": 0.8636363636363636,
+        "macro_f1": 0.7390476190476191,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0,
+        "confusion": {
+          "labels": [
+            "negative",
+            "Cocaine or Methaqualone",
+            "unclear"
+          ],
+          "matrix": [
+            [
+              12,
+              0,
+              1
+            ],
+            [
+              0,
+              6,
+              2
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      },
+      "random_forest": {
+        "acc": 1.0,
+        "macro_f1": 1.0,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "mlp": {
+        "acc": 0.5909090909090909,
+        "macro_f1": 0.4238095238095238,
+        "missed_drug": 0.0,
+        "false_alarm": 0.46153846153846156
+      }
+    },
+    "testE2": {
+      "n_train": 42,
+      "n_test": 21,
+      "rule_dE2000": {
+        "acc": 1.0,
+        "macro_f1": 1.0,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "logreg": {
+        "acc": 0.9523809523809523,
+        "macro_f1": 0.9476190476190477,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "deployed": {
+        "acc": 0.8571428571428571,
+        "macro_f1": 0.8589743589743589,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0,
+        "confusion": {
+          "labels": [
+            "negative",
+            "Cocaine",
+            "Methaqualone",
+            "unclear"
+          ],
+          "matrix": [
+            [
+              5,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              8,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ]
+        }
+      },
+      "random_forest": {
+        "acc": 1.0,
+        "macro_f1": 1.0,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "mlp": {
+        "acc": 0.3333333333333333,
+        "macro_f1": 0.2033333333333333,
+        "missed_drug": 0.9,
+        "false_alarm": 0.25
+      }
+    },
+    "marquis": {
+      "n_train": 31,
+      "n_test": 5,
+      "rule_dE2000": {
+        "acc": 0.8,
+        "macro_f1": 0.5,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "logreg": {
+        "acc": 1.0,
+        "macro_f1": 1.0,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "deployed": {
+        "acc": 1.0,
+        "macro_f1": 1.0,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0,
+        "confusion": {
+          "labels": [
+            "negative",
+            "Heroin / Opiates",
+            "Amphetamines",
+            "MDMA",
+            "unclear"
+          ],
+          "matrix": [
+            [
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "random_forest": {
+        "acc": 1.0,
+        "macro_f1": 1.0,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "mlp": {
+        "acc": 0.8,
+        "macro_f1": 0.5555555555555555,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      }
+    },
+    "mecke": {
+      "n_train": 30,
+      "n_test": 10,
+      "rule_dE2000": {
+        "acc": 0.8,
+        "macro_f1": 0.7222222222222222,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "logreg": {
+        "acc": 0.8,
+        "macro_f1": 0.6111111111111112,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "deployed": {
+        "acc": 0.8,
+        "macro_f1": 0.6111111111111112,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0,
+        "confusion": {
+          "labels": [
+            "negative",
+            "Heroin / Opiates",
+            "unclear"
+          ],
+          "matrix": [
+            [
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "random_forest": {
+        "acc": 1.0,
+        "macro_f1": 1.0,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "mlp": {
+        "acc": 0.5,
+        "macro_f1": 0.5151515151515151,
+        "missed_drug": 0.0,
+        "false_alarm": 0.8
+      }
+    },
+    "mandelin": {
+      "n_train": 32,
+      "n_test": 10,
+      "rule_dE2000": {
+        "acc": 0.6,
+        "macro_f1": 0.5666666666666667,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "logreg": {
+        "acc": 1.0,
+        "macro_f1": 1.0,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "deployed": {
+        "acc": 1.0,
+        "macro_f1": 1.0,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0,
+        "confusion": {
+          "labels": [
+            "negative",
+            "Ketamine",
+            "Amphetamines",
+            "MDMA",
+            "unclear"
+          ],
+          "matrix": [
+            [
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4
+            ]
+          ]
+        }
+      },
+      "random_forest": {
+        "acc": 1.0,
+        "macro_f1": 1.0,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "mlp": {
+        "acc": 0.1,
+        "macro_f1": 0.045454545454545456,
+        "missed_drug": 0.0,
+        "false_alarm": 1.0
+      }
+    },
+    "scott": {
+      "n_train": 14,
+      "n_test": 10,
+      "rule_dE2000": {
+        "acc": 0.9,
+        "macro_f1": 0.8857142857142858,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "logreg": {
+        "acc": 0.9,
+        "macro_f1": 0.8857142857142858,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "deployed": {
+        "acc": 0.9,
+        "macro_f1": 0.8857142857142858,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0,
+        "confusion": {
+          "labels": [
+            "negative",
+            "Cocaine",
+            "unclear"
+          ],
+          "matrix": [
+            [
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              1
+            ],
+            [
+              0,
+              0,
+              2
+            ]
+          ]
+        }
+      },
+      "random_forest": {
+        "acc": 0.9,
+        "macro_f1": 0.8857142857142858,
+        "missed_drug": 0.0,
+        "false_alarm": 0.0
+      },
+      "mlp": {
+        "acc": 0.2,
+        "macro_f1": 0.17777777777777778,
+        "missed_drug": 0.0,
+        "false_alarm": 1.0
+      }
+    }
+  }
+}
